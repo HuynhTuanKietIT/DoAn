@@ -1,0 +1,29 @@
+.home-top {
+  margin-top: 148px;
+  width: 100%;
+  height: 500px;
+  display: flex;
+  align-items: center;
+  .home-left {
+    width: 25%;
+    height: 100%;
+    // background: red;
+  }
+  .home-center {
+    width: 50%;
+    height: 100%;
+
+    //  background: yellow;
+  }
+  .home-right {
+    width: 25%;
+    height: 100%;
+
+    //   background: blue;
+  }
+}
+::ng-deep {
+  mat-slider {
+    width: 300px;
+  }
+}
